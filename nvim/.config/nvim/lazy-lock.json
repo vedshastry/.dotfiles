@@ -8,6 +8,8 @@
   "otter.nvim": { "branch": "main", "commit": "34b0575c6eb2ca30eb064493bf93bccf608953c0" },
   "plenary.nvim": { "branch": "master", "commit": "857c5ac632080dba10aae49dba902ce3abf91b35" },
   "quarto-nvim": { "branch": "main", "commit": "93b1f5a1abc1b1da653f353947f62b294574759c" },
+  "stata-nvim": { "branch": "packaging", "commit": "885d5a2cc7d32c0e430c168190f822f7add522f2" },
+  "stata-vim": { "branch": "master", "commit": "c0a5b75689b60aa4e0d8cf96c33ef95bf90f0dde" },
   "telescope.nvim": { "branch": "master", "commit": "814f102cd1da3dc78c7d2f20f2ef3ed3cdf0e6e4" },
   "tokyonight.nvim": { "branch": "main", "commit": "057ef5d260c1931f1dffd0f052c685dcd14100a3" }
 }
