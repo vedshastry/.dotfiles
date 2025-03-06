@@ -1,0 +1,287 @@
+gepsprinter fontdir .; /usr/X11R6/fonts
+gepsprinter fontface Helvetica
+gepsprinter fontfacemono Courier
+gepsprinter fontfacesans Helvetica
+gepsprinter fontfaceserif Times
+gepsprinter fontfacesymbol Symbol
+gepsprinter lmargin 1.000
+gepsprinter mag 100
+gepsprinter orientation 0
+gepsprinter prcmyk 0
+gepsprinter prlogo 1
+gepsprinter scheme 2
+gepsprinter statafonts 0
+gepsprinter tmargin 1.000
+gepsprinter usegphsize 1
+gepsprinter xmag 100
+gepsprinter xsize 6.000
+gepsprinter ymag 100
+gepsprinter ysize 4.000
+gprinter lmargin 1.000
+gprinter mag 100
+gprinter prlogo 1
+gprinter scheme 2
+gprinter statafonts 0
+gprinter tmargin 1.000
+gprinter usegphsize 1
+gprinter xmag 100
+gprinter xsize 6.000
+gprinter ymag 100
+gprinter ysize 4.000
+gpsprinter addfonts 
+gpsprinter autofont 1
+gpsprinter fontdir .; /usr/X11R6/fonts
+gpsprinter fontface Helvetica
+gpsprinter fontfacemono Courier
+gpsprinter fontfacesans Helvetica
+gpsprinter fontfaceserif Times
+gpsprinter fontfacesymbol Symbol
+gpsprinter lmargin 1.000
+gpsprinter mag 100
+gpsprinter orientation 0
+gpsprinter pageheight 11.000
+gpsprinter pagesize 0
+gpsprinter pagewidth 8.500
+gpsprinter prcmyk 0
+gpsprinter prlogo 1
+gpsprinter scheme 2
+gpsprinter statafonts 0
+gpsprinter tmargin 1.000
+gpsprinter usegphsize 1
+gpsprinter xmag 100
+gpsprinter xsize 6.000
+gpsprinter ymag 100
+gpsprinter ysize 4.000
+gschemecustom_1 pen_blue 0,255,0,0,0,128,255,128,192,255
+gschemecustom_1 pen_green 0,255,255,0,128,0,0,0,192,255
+gschemecustom_1 pen_red 0,0,255,255,0,128,0,0,192,255
+gschemecustom_1 pen_thick 0,1,1,1,1,1,1,1,1,1
+gschemecustom_1 symmag_O 100
+gschemecustom_1 symmag_S 100
+gschemecustom_1 symmag_T 100
+gschemecustom_1 symmag_all 100
+gschemecustom_1 symmag_d 100
+gschemecustom_1 symmag_o 100
+gschemecustom_1 symmag_p 100
+gschemecustom_1 symmag_x 100
+gschemecustom_1 usepens 1
+gschemecustom_2 pen_blue 255,128,0,0,0,128,255,0,64,0
+gschemecustom_2 pen_green 255,0,128,64,0,0,0,192,64,0
+gschemecustom_2 pen_red 255,0,0,128,255,128,0,224,64,0
+gschemecustom_2 pen_thick 0,1,1,1,1,1,1,1,1,1
+gschemecustom_2 symmag_O 100
+gschemecustom_2 symmag_S 100
+gschemecustom_2 symmag_T 100
+gschemecustom_2 symmag_all 100
+gschemecustom_2 symmag_d 100
+gschemecustom_2 symmag_o 100
+gschemecustom_2 symmag_p 100
+gschemecustom_2 symmag_x 100
+gschemecustom_2 usepens 1
+gschemecustom_3 pen_blue 255,0,0,0,0,0,0,0,0,0
+gschemecustom_3 pen_green 255,0,0,0,0,0,0,0,0,0
+gschemecustom_3 pen_red 255,0,0,0,0,0,0,0,0,0
+gschemecustom_3 pen_thick 0,1,1,1,1,1,1,1,1,1
+gschemecustom_3 symmag_O 100
+gschemecustom_3 symmag_S 100
+gschemecustom_3 symmag_T 100
+gschemecustom_3 symmag_all 100
+gschemecustom_3 symmag_d 100
+gschemecustom_3 symmag_o 100
+gschemecustom_3 symmag_p 100
+gschemecustom_3 symmag_x 100
+gschemecustom_3 usepens 1
+gscreen dithick 0
+gscreen fontface helvetica
+gscreen fontfacemono Monospace
+gscreen fontfacesans Sans
+gscreen fontfaceserif Serif
+gscreen fontfacesymbol Sans
+gscreen scheme 0
+gscreen statafonts 0
+gscreen usegphsize 1
+gscreen xsize 6.000
+gscreen ysize 4.000
+mem_se_c maxvar 10000
+printer0 command lpr < @
+printer0 fmt ps
+printer0 inuse 1
+printer0 name prn
+printer1 inuse 0
+printer2 inuse 0
+printer3 inuse 0
+printer4 inuse 0
+printer5 inuse 0
+printer6 inuse 0
+printer7 inuse 0
+printer8 inuse 0
+printer9 inuse 0
+python pyarch_64 64
+python pyexec_64 /usr/bin/python
+python pyhome_64 /usr
+python pylib_64 /usr/lib/libpython3.9.so
+python pyver_64 3.9.7
+python starch_64 64
+python userpath_64 /home/ved/.local/share/py_virtualenv/lib/python3.9/site-packages
+python userpathpre_64 0
+set_c more 1
+set_c rmsg 1
+set_c tracenumber 1
+svg baselineshift 0
+svg bgfill 1
+svg clipstroke 1
+svg fontface Helvetica
+svg fontfacemono Courier
+svg fontfacesans Helvetica
+svg fontfaceserif Times
+svg fontfacesymbol Symbol
+svg ignorefont 0
+svg nbsp 1
+svg scalestrokewidth 0
+svg verbose 0
+svg version 1
+trlog2pdf addfonts 
+trlog2pdf autofont 1
+trlog2pdf bmargin 1.000
+trlog2pdf cmdnumber 0
+trlog2pdf fontdir .; /usr/X11R6/fonts
+trlog2pdf fontsize 9
+trlog2pdf header 0
+trlog2pdf headertext 
+trlog2pdf lmargin 1.000
+trlog2pdf logo 0
+trlog2pdf pageheight 11.000
+trlog2pdf pagesize 0
+trlog2pdf pagewidth 8.500
+trlog2pdf projecttext 
+trlog2pdf rmargin 1.000
+trlog2pdf tmargin 1.000
+trlog2pdf user 
+trlog2ps bmargin 1.000
+trlog2ps cmdnumber 0
+trlog2ps fontsize 9
+trlog2ps header 0
+trlog2ps headertext 
+trlog2ps lmargin 1.000
+trlog2ps logo 0
+trlog2ps pageheight 11.000
+trlog2ps pagesize 0
+trlog2ps pagewidth 8.500
+trlog2ps projecttext 
+trlog2ps rmargin 1.000
+trlog2ps tmargin 1.000
+trlog2ps user 
+trmap0 from sthlp
+trmap0 inuse 1
+trmap0 to smcl
+trmap1 inuse 0
+trmap2 inuse 0
+trmap3 inuse 0
+trmap4 inuse 0
+trmap5 inuse 0
+trmap6 inuse 0
+trmap7 inuse 0
+trmap8 inuse 0
+trmap9 inuse 0
+trsmcl2log cmdnumber 0
+trsmcl2log header 0
+trsmcl2log headertext 
+trsmcl2log linesize 79
+trsmcl2log lmargin 0
+trsmcl2log logo 0
+trsmcl2log pagelines 60
+trsmcl2log projecttext 
+trsmcl2log user 
+trsmcl2pdf addfonts 
+trsmcl2pdf autofont 1
+trsmcl2pdf bmargin 1.000
+trsmcl2pdf cmdnumber 1
+trsmcl2pdf cust1_blue 255,0,0,0,0,0,0,0
+trsmcl2pdf cust1_bold 0,1,0,0,1,0,0,1
+trsmcl2pdf cust1_green 255,0,0,0,0,0,0,0
+trsmcl2pdf cust1_red 255,0,0,0,0,0,0,0
+trsmcl2pdf cust1_ul 0,0,0,0,0,0,1,0
+trsmcl2pdf cust2_blue 255,0,0,255,0,0,255,0
+trsmcl2pdf cust2_bold 0,1,0,0,1,0,0,1
+trsmcl2pdf cust2_green 255,0,0,255,0,0,0,0
+trsmcl2pdf cust2_red 255,0,0,0,255,0,0,0
+trsmcl2pdf cust2_ul 0,0,0,0,0,0,1,0
+trsmcl2pdf fontdir .; /usr/X11R6/fonts
+trsmcl2pdf fontsize 9
+trsmcl2pdf header 1
+trsmcl2pdf headertext 
+trsmcl2pdf lmargin 1.000
+trsmcl2pdf logo 1
+trsmcl2pdf pageheight 11.000
+trsmcl2pdf pagesize 0
+trsmcl2pdf pagewidth 8.500
+trsmcl2pdf projecttext 
+trsmcl2pdf rmargin 1.000
+trsmcl2pdf scheme 0
+trsmcl2pdf tmargin 1.000
+trsmcl2pdf user 
+trsmcl2ps bmargin 1.000
+trsmcl2ps cmdnumber 1
+trsmcl2ps cust1_blue 255,0,0,0,0,0,0,0
+trsmcl2ps cust1_bold 0,1,0,0,1,0,0,1
+trsmcl2ps cust1_green 255,0,0,0,0,0,0,0
+trsmcl2ps cust1_red 255,0,0,0,0,0,0,0
+trsmcl2ps cust1_ul 0,0,0,0,0,0,1,0
+trsmcl2ps cust2_blue 255,0,0,255,0,0,255,0
+trsmcl2ps cust2_bold 0,1,0,0,1,0,0,1
+trsmcl2ps cust2_green 255,0,0,255,0,0,0,0
+trsmcl2ps cust2_red 255,0,0,0,255,0,0,0
+trsmcl2ps cust2_ul 0,0,0,0,0,0,1,0
+trsmcl2ps fontsize 9
+trsmcl2ps header 1
+trsmcl2ps headertext 
+trsmcl2ps lmargin 1.000
+trsmcl2ps logo 1
+trsmcl2ps pageheight 11.000
+trsmcl2ps pagesize 0
+trsmcl2ps pagewidth 8.500
+trsmcl2ps projecttext 
+trsmcl2ps rmargin 1.000
+trsmcl2ps scheme 0
+trsmcl2ps tmargin 1.000
+trsmcl2ps user 
+trsmcl2txt cmdnumber 1
+trsmcl2txt header 1
+trsmcl2txt headertext 
+trsmcl2txt linesize 79
+trsmcl2txt lmargin 6
+trsmcl2txt logo 1
+trsmcl2txt pagelines 60
+trsmcl2txt projecttext 
+trsmcl2txt user 
+trtxt2pdf addfonts 
+trtxt2pdf autofont 1
+trtxt2pdf bmargin 1.000
+trtxt2pdf cmdnumber 1
+trtxt2pdf fontdir .; /usr/X11R6/fonts
+trtxt2pdf fontsize 9
+trtxt2pdf header 1
+trtxt2pdf headertext 
+trtxt2pdf lmargin 1.000
+trtxt2pdf logo 1
+trtxt2pdf pageheight 11.000
+trtxt2pdf pagesize 0
+trtxt2pdf pagewidth 8.500
+trtxt2pdf projecttext 
+trtxt2pdf rmargin 1.000
+trtxt2pdf tmargin 1.000
+trtxt2pdf user 
+trtxt2ps bmargin 1.000
+trtxt2ps cmdnumber 1
+trtxt2ps fontsize 9
+trtxt2ps header 1
+trtxt2ps headertext 
+trtxt2ps lmargin 1.000
+trtxt2ps logo 1
+trtxt2ps pageheight 11.000
+trtxt2ps pagesize 0
+trtxt2ps pagewidth 8.500
+trtxt2ps projecttext 
+trtxt2ps rmargin 1.000
+trtxt2ps tmargin 1.000
+trtxt2ps user 

@@ -1,0 +1,111 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    fuzzyMatch: true
+    helmDirSwitch: true
+  "atom-html-preview":
+    enableMathJax: true
+    scrollToCursor: true
+    triggerOnSave: true
+  "atom-latex":
+    bibtex: "biber"
+    clean_after_build: true
+    compiler: "lualatex"
+    delayed_minimap_refresh: true
+    hide_log_if_success: true
+    preview_after_build: "Do nothing"
+    toolchain: "latexmk toolchain"
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-python":
+    useKite: false
+  core:
+    autoHideMenuBar: true
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "language-gfm"
+      "linter-spell"
+      "markdown-preview"
+      "file-icon-supplement"
+    ]
+    projectHome: "/home/ved/repos"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "duotone-dark-syntax":
+    color:
+      duo: "#efccee"
+      uno: "#f9893e"
+  editor:
+    confirmCheckoutHeadRevision: false
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "5b7b3be4-a060-4c5e-b9da-283fa744ff86"
+  "file-icons": {}
+  "glacier-dark-ui": {}
+  "hydrogen-python": {}
+  latex:
+    buildOnSave: true
+    cleanPatterns: [
+      "*.aux"
+      "*.bcf"
+      "*.fdb*"
+      "*.fls"
+      "*.log"
+      "*.out"
+      "*.run.xml"
+      "*.synctex.gz"
+    ]
+    enableExtendedBuildMode: false
+    opener: "zathura"
+    useRelativePaths: true
+  "linter-spell":
+    spellingErrorSeverity: "info"
+  "linter-ui-default":
+    panelHeight: 300
+  "markdown-preview-plus":
+    renderer: "pandoc"
+    saveConfig:
+      defaultSaveFormat: "pdf"
+      openOnSave:
+        html: false
+        pdf: true
+      saveToPDFOptions:
+        styleOverride: "default"
+  minimap:
+    absoluteMode: true
+    displayMinimapOnLeft: true
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "Folder"
+      workingDirectory: "Active File"
+    style:
+      theme: "pro"
+  "rainbow-csv":
+    rbql_backend: "Python"
+  "vim-mode-plus":
+    findAcrossLines: true
+    hideCommandsFromCommandPalette: true
+    ignoreCaseForFind: true
+    ignoreCaseForSearch: true
+    keymapYToYankToLastCharacterOfLine: true
+    reuseFindForRepeatFind: true
+    smoothScrollOnHalfScrollMotion: true
+    smoothScrollOnHalfScrollMotionDuration: 100
+    statusBarModeStringStyle: "long"
+  "vim-modeline":
+    insertPrefix: "vim"
+  welcome:
+    lastViewedChangeLog: "1.125.0"
+    showOnStartup: false
+  "x-terminal-reloaded":
+    terminalSettings:
+      colors:
+        theme: "City Lights"
+      copyOnSelect: true
+      defaultOpenPosition: "Bottom Dock"
+".text.vim-help":
+  editor:
+    tabLength: 8

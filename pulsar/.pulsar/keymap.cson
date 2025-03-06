@@ -1,0 +1,50 @@
+# unset ctrl-enter to create new line
+'atom-workspace atom-text-editor:not([mini])':
+  # 'ctrl-enter': 'unset!'
+  'ctrl-shift-D': 'unset!'
+  'ctrl-shift-enter': 'unset!'
+
+# unset atom core bindings
+'atom-text-editor':
+  # 'ctrl-space': 'autocomplete-plus:activate'
+  'ctrl-space': 'unset!'
+  'ctrl-o': 'unset!'
+
+
+# stata exec
+'atom-text-editor[data-grammar="source stata"]:not([mini])':
+# run current line ctrl-enter
+  'ctrl-enter': 'stata-exec:run'
+# run do file with ctrl-shift-d
+  'ctrl-shift-D': 'stata-exec:run-all'
+
+# set ctrl f to find
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-f': 'unset!'
+
+# hydrogen python: run lines
+'.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
+  'ctrl-alt-enter': 'hydrogen:run-and-move-down'
+
+# unset platformio terminal
+# '.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  # 'ctrl-enter': 'unset!'
+  # set ctrl shift enter to run selected lines in console
+  # 'ctrl-shift-enter': 'platformio-ide-terminal:insert-selected-text'
+
+# regex railroad diagram
+'.platform-linux, .platform-win32':
+  'ctrl-r': 'unset!'
+  'ctrl-r ctrl-r': 'unset!'
+  'alt-r': 'regex-railroad-diagram:show'
+
+# vim mode plus - return to normal mode
+'atom-text-editor.vim-mode-plus':
+  'ctrl-i': 'vim-mode-plus:reset-normal-mode'
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'ctrl-r': 'vim-mode-plus:redo'
+
+# advanced open file
+'atom-text-editor.advanced-open-file':
+  'ctrl-alt-o': 'unset!'
+  'ctrl-o': 'advanced-open-file:toggle'
