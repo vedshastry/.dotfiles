@@ -1,0 +1,26 @@
+# alias tips
+djui/alias-tips
+# completions and syntax highlighting
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+# colored manpages
+ael-code/zsh-colored-man-pages
+# dotfile management
+kazhala/dotbare
+# vim mode
+zsh-vi-more/evil-registers
+zsh-vi-more/ex-commands
+# readable exit codes
+bric3/nice-exit-code
+# reload command to source .zshrc
+aubreypwd/zsh-plugin-reload
+# send command to git add, commit, pull & push in one go
+robertzk/send.zsh
+# snippets (aliases)
+willghatch/zsh-snippets
+# allow system clipboard to be used in vim mode
+kutsan/zsh-system-clipboard
+# url completion
+Valodim/zsh-_url-httplink
+# theme
+# reujab/bronze
