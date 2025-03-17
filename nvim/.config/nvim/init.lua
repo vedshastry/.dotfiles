@@ -32,3 +32,6 @@ require("lazy").setup("plugins")
 
 -- Set colorscheme
 vim.cmd[[colorscheme tokyonight]]
+
+-- Clipboard
+vim.api.nvim_set_option("clipboard","unnamed")

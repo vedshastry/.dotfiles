@@ -8,15 +8,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,24 +16,12 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
-
-# defining environment variables
-export BROWSER=firefox
-export EDITOR=vim
 
 # run programs on startup
 
@@ -55,5 +35,5 @@ fi
 # load xresources
 xrdb ~/.Xresources
 
-# dwm
+# start dwm
 exec dwm
