@@ -18,7 +18,7 @@ run	"xsetroot -cursor_name left_ptr"
 # Wallpaper
 run	"nitrogen --restore"
 # Fonts
-run	"xset +fp ~/.fonts/misc"
+#run	"xset +fp ~/.fonts/misc"
 # Pulseaudio
 run	"pulseaudio --start"
 # Numlock
@@ -34,7 +34,7 @@ run	"nm-applet"
 # Power Manager
 run	"xfce4-power-manager"
 # Solaar
-#run	"solaar"
+run	"solaar"
 # Bluetooth
 run	"blueman-applet"
 # Audio
@@ -44,8 +44,6 @@ run	"dropbox"
 #run	"maestral"
 # Onedrive systray
 #run	"onedrive_tray"
-# Ferdi
-#run	"ferdi"
 # Slack
 run 	"slack -u"
 # Teams
@@ -54,8 +52,6 @@ run 	"slack -u"
 run	"flameshot"
 # Redshift 
 #run	"redshift-gtk"
-# Thunderbird
-#run	"kdocker -l thunderbird"
 # Emacs daemon
 run "emacs --daemon"
 # Slstatus
