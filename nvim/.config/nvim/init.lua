@@ -1,6 +1,4 @@
 -- ~/.config/nvim/init.lua
-vim.g.mapleader = " "
-
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -16,6 +14,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Basic options
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+vim.opt.clipboard = "unnamedplus"
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 2
@@ -27,11 +28,12 @@ vim.opt.wrap = false
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
--- Setup Lazy with plugins from the plugins module
-require("lazy").setup("plugins")
-
--- Set colorscheme
-vim.cmd[[colorscheme tokyonight]]
-
--- Clipboard
-vim.api.nvim_set_option("clipboard","unnamed")
+-- Setup lazy.nvim
+require("lazy").setup({
+  spec = {
+    -- import your plugins
+    { import = "plugins" },
+  },
+  -- automatically check for plugin updates
+  checker = { enabled = true },
+})
