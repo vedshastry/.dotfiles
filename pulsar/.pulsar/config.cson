@@ -39,6 +39,7 @@
       uno: "#f9893e"
   editor:
     confirmCheckoutHeadRevision: false
+    fontSize: 11
     showInvisibles: true
     tabLength: 4
   "exception-reporting":
@@ -77,6 +78,11 @@
   minimap:
     absoluteMode: true
     displayMinimapOnLeft: true
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
   "platformio-ide-terminal":
     core:
       mapTerminalsTo: "Folder"
@@ -95,6 +101,7 @@
     smoothScrollOnHalfScrollMotion: true
     smoothScrollOnHalfScrollMotionDuration: 100
     statusBarModeStringStyle: "long"
+    useClipboardAsDefaultRegister: true
   "vim-modeline":
     insertPrefix: "vim"
   welcome:
