@@ -37,6 +37,15 @@ require("lazy").setup({
   change_detection = {
     notify = true
   },
+  -- Dev config
+  dev = {
+    -- Path where local plugin repos are stored
+    path = "~/repos",
+    -- Patterns for plugin names that should be considered as local development plugins
+    patterns = { "xstata-nvim" },
+    -- Don't automatically change any plugins to dev
+    fallback = false,
+  },
 })
 
 --------------------------------------------------------------------

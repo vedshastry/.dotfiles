@@ -1,11 +1,8 @@
-# This is a sample commands.py.  You can add your own commands here.
+# This is a sample commands.py. You can add your own commands here.
 #
 # Please refer to commands_full.py for all the default commands and a complete
-# documentation.  Do NOT add them all here, or you may end up with defunct
+# documentation. Do NOT add them all here, or you may end up with defunct
 # commands when upgrading ranger.
-
-# A simple command for demonstration purposes follows.
-# -----------------------------------------------------------------------------
 
 from __future__ import (absolute_import, division, print_function)
 
@@ -15,9 +12,36 @@ import os
 # You always need to import ranger.api.commands here to get the Command class:
 from ranger.api.commands import Command
 
+# -----------------------------------------------------------------------------
+# Source shell aliases
+# -----------------------------------------------------------------------------
+class arun(Command):
+    """
+    :arun ALIAS [ARGUMENTS]
+    
+    Runs an alias with the given arguments.
+    Requires environment variable $SHELL to be set
+    Example: :arun v myfile.txt
+    """
+    
+    def execute(self):
+        if not self.arg(1):
+            self.fm.notify("Usage: arun ALIAS [ARGUMENTS]", bad=True)
+            return
+            
+        # split alias and args
+        alias = self.arg(1)
+        args = self.rest(2)
+        
+        # split with $SHELL
+        self.fm.execute_command("$SHELL -i -c '{} {}'".format(alias, args))
+        
+    def tab(self, tabnum):
+        return self._tab_directory_content()
 
-# Any class that is a subclass of "Command" will be integrated into ranger as a
-# command.  Try typing ":my_edit<ENTER>" in ranger!
+# -----------------------------------------------------------------------------
+# Example command - uncommented and ready to use
+# -----------------------------------------------------------------------------
 class my_edit(Command):
     # The so-called doc-string of the class will be visible in the built-in
     # help that is accessible by typing "?c" inside ranger.
@@ -48,7 +72,7 @@ class my_edit(Command):
             self.fm.notify("The given file does not exist!", bad=True)
             return
 
-        # This executes a function from ranger.core.acitons, a module with a
+        # This executes a function from ranger.core.actions, a module with a
         # variety of subroutines that can help you construct commands.
         # Check out the source, or run "pydoc ranger.core.actions" for a list.
         self.fm.edit_file(target_filename)
