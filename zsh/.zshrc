@@ -31,6 +31,7 @@ RPROMPT='[%F{yellow}%?%f]'
 
 # Aliases
 alias p='sudo pacman'
+alias vim='nvim'
 alias v='nvim'
 alias vp='nvim -p'
 alias sv='sudo nvim'
@@ -40,7 +41,6 @@ alias slp='sudo systemctl suspend'
 alias toron='systemctl enable tor.service'
 alias toroff='systemctl disable tor.service'
 alias netre='sudo systemctl restart NetworkManager'
-alias lf='lfrun'
 alias zz='sudo zzz'
 
 #a2# Only show dot-directories
@@ -84,3 +84,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# rsync
+# rsync -aAXlP --exclude={"*cache*","*Cache*","*Dropbox*"} /home/ved/ /backup/dir/

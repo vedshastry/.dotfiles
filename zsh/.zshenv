@@ -1,3 +1,6 @@
+# shell
+export SHELL=zsh
+
 # editor
 export VISUAL=nvim
 export EDITOR=nvim
