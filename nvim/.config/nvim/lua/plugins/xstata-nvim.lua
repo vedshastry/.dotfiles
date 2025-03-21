@@ -1,16 +1,19 @@
-return
-{
+-- ~/.config/nvim/lua/plugins/xstata-nvim.lua
+--
+return {
+  -- Syntax highlighting for Stata files
   {
-  "poliquin/stata-vim",  -- Your syntax highlighting plugin
-    ft = { "stata", "do", "ado", "mata" },  -- Load when editing Stata files
+    "poliquin/stata-vim",  
+    ft = { "stata", "do", "ado", "mata" },
   },
 
+  -- Stata integration with improvements
   {
     "vedshastry/xstata-nvim",
-    lazy = true,  -- Only load when needed
-    ft = { "stata", "do", "ado", "mata" },  -- Load when editing Stata files
+    lazy = true,
+    ft = { "stata", "do", "ado", "mata" },
     dependencies = {
-      "poliquin/stata-vim",  -- Your syntax highlighting plugin
+      "poliquin/stata-vim",
     },
     config = function()
       require("xstata-nvim").setup({
@@ -19,14 +22,11 @@ return
         skip_comments = true,
         focus_window = true,
         paste_speed = 1.0,
+        -- Additional settings for enhanced experience
+        auto_format = true,      -- Automatically format code
+        show_line_numbers = true, -- Show line numbers in Stata's do-file editor
       })
     end,
-    keys = {
-      { "<C-CR>", "<cmd>lua require('xstata-nvim').run()<CR>", desc = "Send line/selection to Stata" },
-      { "<Leader>rp", "<cmd>lua require('xstata-nvim').run_previous_command()<CR>", desc = "Run previous Stata command" },
-      { "<Leader>ra", "<cmd>lua require('xstata-nvim').run_all()<CR>", desc = "Run entire buffer in Stata" },
-      { "<Leader>rr", "<cmd>lua require('xstata-nvim').run_paragraph()<CR>", desc = "Run current paragraph in Stata" },
-    },
-  }
-
+  },
+  
 }

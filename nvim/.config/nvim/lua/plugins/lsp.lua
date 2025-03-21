@@ -8,7 +8,6 @@ return {
       "j-hui/fidget.nvim",
     },
   },
-  
   -- Mason for managing LSP servers
   {
     "williamboman/mason.nvim",
